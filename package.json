@@ -1,7 +1,6 @@
 {
   "name": "resume-nlyzer",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
@@ -33,5 +32,8 @@
     "typescript": "^5.8.3",
     "vite": "^6.3.3",
     "vite-tsconfig-paths": "^5.1.4"
+  },
+  "overrides": {
+    "p-map": "4.0.0"
   }
 }
